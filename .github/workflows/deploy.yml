@@ -34,4 +34,3 @@ jobs:
             sudo rm -rf /usr/share/nginx/html/*
             sudo cp -r /tmp/website/* /usr/share/nginx/html/
             sudo systemctl reload nginx
-
