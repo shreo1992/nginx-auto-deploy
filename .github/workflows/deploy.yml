@@ -30,6 +30,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
+          
           script: |
             sudo rm -rf /usr/share/nginx/html/*
             sudo cp -r /tmp/website/* /usr/share/nginx/html/
